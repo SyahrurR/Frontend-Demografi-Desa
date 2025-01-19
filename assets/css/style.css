@@ -1,0 +1,125 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('argon-dashboard-master/assets/css/argon-dashboard.css');
+
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1, h4 {
+  color: #343a40;
+}
+
+table th, table td {
+  text-align: center;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th, .styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+/* Additional styling for better appearance */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card .numbers {
+  font-size: 1.2em;
+}
+
+.card .icon {
+  font-size: 2em;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+.table thead th {
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.form-select {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+label.form-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #007bff;
+}
+
+h4 {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #343a40;
+}
